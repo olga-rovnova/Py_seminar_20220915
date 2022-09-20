@@ -14,3 +14,5 @@ lst = list(line1.split())
 print(lst) 
 lst = list(filter(lambda x: 'abc' not in x, lst)) 
 print(' '.join(lst))
+with open('task1_1.txt', 'w') as res:
+    res.write(' '.join(lst))
