@@ -1,7 +1,7 @@
 # 1.Напишите программу, удаляющую из текста все слова, содержащие "абв". 
 
 # f = open('task1.txt', 'a')
-# f.writelines('writeabc a program deleting all words with "abc"')
+# f.write('\nwriteabc a program deleting all words with "abc"\n')
 # f.close
 
 f = open('task1.txt', 'rt')
